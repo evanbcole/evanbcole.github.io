@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Evan Cole</title>
+
+     <style>
+         h1 {
+             color: chartreuse;
+             font-family: 'Courier New', Courier, monospace;
+             text-align: center;
+         }
+
+         body {
+             background-color: black;
+         }
+
+         #mute {
+             color: chartreuse;
+             font-family: 'Courier New', Courier, monospace;
+             position: absolute; top: 5px; right: 15px;
+         }
+
+         #play {
+             color: chartreuse;
+             font-family: 'Courier New', Courier, monospace;
+             position: absolute; top: 5px; left: 15px;
+         }
+
+         .controls:hover {
+             text-decoration: underline;
+             font-style: italic;
+         }
+
+          /* The Modal (background) */
+            .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */(1 point) Suppose any one round of a gambling game pays 3 to 1 and the odds are 4 to 1 against you. If you play for 100 rounds and bet one dollar on each round, what is the chance you will come out ahead?
+
+
+            background-color: rgba(0, 0, 0, 0); /* Black w/ opacity */
+            }
+
+            /* Modal Content/Box */
+            .modal-content {
+            background-color: rgba(0, 0, 0, 0.76);
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 2px solid chartreuse;
+            width: 70%; /* Could be more or less, depending on screen size */
+            text-align: center;
+            color: chartreuse;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 28px;
+            font-weight: bold;            
+            }
+
+            .fadein{animation:opac 3s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+     </style>
+
+</head>
+
+<body>
+    <div id="myModal" class="modal fadein">
+        <div class="modal-content">
+            <p>Welcome,</p>
+            <p>Click to continue.</p>
+        </div>
+    </div>
+
+    <main id="myContainer" class="mainContainer">
+    <h1>evan.nl</h1>
+    <p id="mute", class="controls">mute</p>
+    <p id="play" class="controls">play</p>
+    <audio id="music">
+        <source src="05 The Court of the Crimson King.mp3" type="audio/mp3">
+    </audio>
+
+    <script type="text/javascript" src="scripts.js"></script>
+    </main>
+</body>
+</html>
