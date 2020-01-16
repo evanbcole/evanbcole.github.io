@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48pt;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 2vw 0;
+    
+    font-size: 2.5vh;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+  
+    padding: 2vw;
+}
+
+a:hover {
+    background-color: rgb(216, 216, 216);
+}
+  
+nav {
+    width: 100vw;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    text-align: center; 
+  }
+  
+body { 
+    margin: 0;
+}
