@@ -4,44 +4,92 @@ h1 {
     font-weight: normal;
     font-style: italic;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 5px;
 
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 2vw 0;
-    
-    font-size: 2.5vh;
-}
-  
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    font-weight: normal;
+    font-style: italic;
     text-align: center;
-  
-    padding: 2vw;
+    margin-top: 5px;
 }
-
-a:hover {
-    background-color: rgb(216, 216, 216);
-}
-  
 nav {
     width: 100vw;
     background-color: white;
-    border-bottom: 2px solid black;
+    border-bottom: 1.5px solid black;
 }
   
 nav ul {
     margin: 0;
     padding: 0;
-    
-    display: flex;
     text-align: center; 
-  }
+}
+
+nav ul li {
+    display: inline;
+}
+  
+nav ul li a {
+    display: inline-block;
+    color: black;
+    font-family: monospace;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 12pt;
+    text-decoration: none;
+    width: 10%;
+}
+
   
 body { 
     margin: 0;
 }
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: rgb(238, 238, 238);
+    color: black;
+  }
+
+  .pagecontent {
+      margin-top: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  h3 {
+      font-size: 23px;
+      font-style: italic;
+  }
+
+  #p2 {
+      padding-top: 20px;
+  }
+
+  footer {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      width: 100%;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      color: rgb(151, 151, 151);
+  }
