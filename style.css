@@ -1,7 +1,7 @@
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Asap', sans-serif;
     font-size: 48pt;
-    font-weight: normal;
+    font-weight: bold;
     font-style: italic;
     text-align: center;
     margin-top: 4vh;
@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Asap', sans-serif;
     font-size: 16pt;
     font-weight: normal;
     font-style: italic;
@@ -36,7 +36,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     color: black;
-    font-family: monospace;
+    font-family: 'Asap', sans-serif;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -72,7 +72,7 @@ body {
       margin-top: 10%;
       margin-left: 20%;
       margin-right: 20%;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Asap', sans-serif;
   }
 
   h3 {
@@ -89,7 +89,31 @@ body {
       bottom: 10px;
       text-align: center;
       width: 100%;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Asap', sans-serif;
       font-size: 14px;
       color: rgb(151, 151, 151);
+  }
+
+  .projlist {
+      padding-top: 20px;
+      font-size: 20px;
+  }
+
+  .projlist li {
+      padding-bottom: 20px;
+  }
+
+  #myemail {
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 200px;
+  }
+
+  #gitlink {
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  #gitpara {
+      padding-top: 20px;
   }
